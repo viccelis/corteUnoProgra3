@@ -5,9 +5,7 @@ public class SumarPares {
         int n = 0;
         int suma = 0;
 
-        Scanner = scanner new
-
-            scanner(System.in);
+        Scanner = scanner new scanner(System.in);
 
         int n = scanner.nextLine();
 

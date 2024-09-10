@@ -3,7 +3,7 @@ package parcial.src.main.java.org.example;
 public class NumeroPrimo {
     public static void main(String[] args) {
         int n = 29;
-        boolean esPrimo = esNumeroPrimo(n);
+        boolean esPrimo = esNumPrimo(n);
 
         if (esPrimo) {
             System.out.println(n + " es un número primo.");
@@ -12,7 +12,7 @@ public class NumeroPrimo {
         }
     }
 
-    public static boolean esNumeroPrimo(int n) {
+    public static boolean esNumPrimo(int n) {
         if (n <= 1) {
             return false;
         }
@@ -32,6 +32,5 @@ public class NumeroPrimo {
         }
 
         return true;
-}
-}
+    }
 }

@@ -1,6 +1,4 @@
 package parcial.src.main.java.org.example;
-
-public class ContarVocales {
     import java.util.Scanner;
 
     public class ContarVocales {
@@ -15,17 +13,16 @@ public class ContarVocales {
             texto = texto.toLowerCase();
 
             for (int i = 0; i < texto.length(); i++) {
-                char caracter = texto.charAt(i);
+                char letra = texto.charAt(i);
 
-                if (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u') {
+                if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
                     contadorVocales++;
                 }
             }
 
-            System.out.println("Número de vocales: " + contadorVocales);
-            
+            System.out.println("hay " + contadorVocales + "vocales");
+
             scanner.close();
         }
     }
 
-}
