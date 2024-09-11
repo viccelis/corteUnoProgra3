@@ -1,4 +1,4 @@
-package parcial.src.main.java.org.example;
+package parcial.src.main.java.org.example.Ejercicios;
     import java.util.Scanner;
 
     public class ContarVocales {

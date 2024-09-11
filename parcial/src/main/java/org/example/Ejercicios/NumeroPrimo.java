@@ -1,8 +1,15 @@
-package parcial.src.main.java.org.example;
+package parcial.src.main.java.org.example.Ejercicios;
+
+import java.util.Scanner;
 
 public class NumeroPrimo {
     public static void main(String[] args) {
-        int n = 29;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese un numero: ");
+
+        int n = scanner.nextInt();
+
         boolean esPrimo = esNumPrimo(n);
 
         if (esPrimo) {
